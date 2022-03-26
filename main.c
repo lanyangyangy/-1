@@ -1,4 +1,4 @@
-void  Nixu(SListNode** pplist)
+void  Nixu(SListNode** pplist)//pplist 指向存放链表地址的地址
 {
     SListNode* p1,*p2,*p3;
     p1=*pplist;
