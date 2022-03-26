@@ -2,7 +2,7 @@ void  Nixu(SListNode** pplist)
 {
     SListNode* p1,*p2,*p3;
     p1=*pplist;
-    if(p1->next==NULL)
+    if(p1->next==NULL)//若p1的大小为1
     {
         return;
     }
